@@ -9,10 +9,10 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          What is this?
+          Its raining cats and dogs!
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          An open source, decentralized casino built on Gamba. Copy this platform with your own branding and start earning fees on every bet.
+          Place bets to win sol and earn points. Each bet placed adds liquidity to the LP pool. Tokens will be airdropped based on points.
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           <Button
@@ -22,7 +22,7 @@ export function Home() {
             target="_blank"
             icon={<Icon.ExternalLink />}
           >
-            Learn more
+            Play
           </Button>
         </div>
       </Section>
